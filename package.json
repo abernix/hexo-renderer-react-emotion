@@ -17,6 +17,7 @@
   "peerDependencies": {
     "emotion": "9.x",
     "emotion-server": "9.x",
+    "react-emotion": "9.x",
     "react": "15.x || 16.x",
     "react-dom": "15.x || 16.x"
   },
