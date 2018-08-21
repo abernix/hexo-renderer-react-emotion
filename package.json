@@ -1,6 +1,6 @@
 {
   "name": "hexo-renderer-react-emotion",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Hexo renderer for React + Emotion",
   "author": "Jesse Rosenberger <npm@jro.cc>",
   "license": "MIT",
