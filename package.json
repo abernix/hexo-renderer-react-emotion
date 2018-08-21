@@ -1,0 +1,26 @@
+{
+  "name": "hexo-renderer-react-emotion",
+  "version": "1.0.0",
+  "description": "Hexo renderer for React + Emotion",
+  "author": "Jesse Rosenberger <npm@jro.cc>",
+  "license": "MIT",
+  "homepage": "https://github.com/abernix/hexo-renderer-react-emotion",
+  "repository": "https://github.com/abernix/hexo-renderer-react.git",
+  "bugs": "https://github.com/abernix/hexo-renderer-react-emotion/issues",
+  "main": "index.js",
+  "keywords": [
+    "hexo",
+    "renderer",
+    "react",
+    "emotion"
+  ],
+  "peerDependencies": {
+    "react": "15.x || 16.x",
+    "react-dom": "15.x || 16.x"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-rc.1",
+    "@babel/preset-env": "^7.0.0-rc.1",
+    "@babel/preset-react": "^7.0.0-rc.1"
+  }
+}
