@@ -34,6 +34,9 @@ function renderer (data, options) {
     filename: data.path,
   });
 
+  assert(sandbox.exports && typeof sandbox.exports.default === "function",
+    `Must export a 'default' export from ${data.path}`);
+
   return renderStylesToString(
             renderToStaticMarkup(
               createElement(sandbox.exports.default)));
