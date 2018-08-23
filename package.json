@@ -25,6 +25,7 @@
     "@babel/core": "^7.0.0-rc.2",
     "@babel/preset-env": "^7.0.0-rc.2",
     "@babel/preset-react": "^7.0.0-rc.2",
-    "@babel/register": "^7.0.0-rc.2"
+    "@babel/register": "^7.0.0-rc.2",
+    "babel-plugin-emotion": "^9.2.6"
   }
 }

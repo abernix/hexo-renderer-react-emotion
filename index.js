@@ -17,6 +17,9 @@ const babelOptions = {
     require.resolve("@babel/preset-env"),
     require.resolve("@babel/preset-react"),
   ],
+  plugins: [
+    require.resolve("babel-plugin-emotion"),
+  ],
   extensions: [".jsx", ".js"],
 };
 
