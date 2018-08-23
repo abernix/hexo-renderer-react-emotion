@@ -3,10 +3,14 @@
 
 const vm = require("vm");
 const babel = require("@babel/core");
+const assert = require("assert");
 
 const { createElement } = require("react");
 const { renderToStaticMarkup } = require("react-dom/server");
 const { renderStylesToString } = require("emotion-server")
+
+assert(typeof hexo === "object",
+  "Hexo is required to use `hexo-renderer-react-emotion`.");
 
 function renderer (data, options) {
   if (!data.text) {
