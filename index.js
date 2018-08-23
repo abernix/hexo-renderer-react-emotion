@@ -54,7 +54,7 @@ function renderer (data, options) {
     console.error("ERROR", err);
   }
 
-  assert(sandbox.exports && typeof sandbox.exports.default === "function",
+  assert(sandbox.exports && typeof sandbox.exports.default !== "undefined",
     `Must export a 'default' export from ${data.path}`);
 
   return renderStylesToString(
