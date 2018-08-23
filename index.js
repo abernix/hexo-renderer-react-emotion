@@ -7,7 +7,7 @@ const assert = require("assert");
 
 const { createElement } = require("react");
 const { renderToStaticMarkup } = require("react-dom/server");
-const { renderStylesToString } = require("emotion-server")
+const { renderStylesToString } = require("emotion-server");
 
 assert(typeof hexo === "object",
   "Hexo is required to use `hexo-renderer-react-emotion`.");
